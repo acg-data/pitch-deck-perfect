@@ -37,24 +37,24 @@ export function CTABanner() {
                     className="w-6 h-6 rounded-full border-2 border-primary object-cover"
                   />
                 </div>
-                <span className="text-sm text-white/80">Join 500+ funded founders</span>
+                <span className="text-sm text-white/80">Join 500+ founders who broke through</span>
               </div>
 
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
-                Ready To Raise?
+                Your Competition Is
                 <br />
-                Let's Build Your Deck.
+                Already Pitching.
               </h2>
 
               <p className="text-white/70 text-lg mb-8 max-w-lg">
-                Schedule a free consultation with our team. We'll discuss your vision, answer your questions, and outline how we can help you secure funding.
+                While you wait, someone else is closing your investors. Book a free strategy call today. We'll map out exactly how to make your deck impossible to ignore.
               </p>
 
               <Button 
                 size="lg"
                 className="bg-accent text-primary hover:bg-accent-hover rounded-full px-8 py-6 text-base font-medium transition-all duration-200 hover:scale-[1.02] group"
               >
-                Book Free Consultation
+                Claim My Strategy Call
                 <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
               </Button>
             </div>

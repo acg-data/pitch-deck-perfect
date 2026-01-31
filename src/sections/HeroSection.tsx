@@ -50,7 +50,7 @@ export function HeroSection() {
                 <span className="text-xs font-bold text-primary">+500</span>
               </div>
             </div>
-            <span className="text-sm text-white/80">500+ startups funded with our decks</span>
+            <span className="text-sm text-white/80">500+ founders turned into funded legends</span>
             <Sparkles className="w-4 h-4 text-accent" />
           </div>
         </motion.div>
@@ -63,9 +63,9 @@ export function HeroSection() {
           className="text-center mb-6"
         >
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
-            Pitch Decks That
+            Stop Getting Ghosted.
             <br />
-            <span className="text-gradient-ice">Close Deals</span>
+            <span className="text-gradient-ice">Start Getting Funded.</span>
           </h1>
         </motion.div>
 
@@ -76,8 +76,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="text-center text-white/70 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
         >
-          We craft compelling pitch decks that help founders tell their story, 
-          impress investors, and secure funding. From seed to Series C.
+          Most pitch decks die in inbox purgatory. Yours won't. We build decks that demand attention, spark FOMO, and open wallets. From scrappy seed rounds to Series C victories.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -91,7 +90,7 @@ export function HeroSection() {
             size="lg"
             className="bg-accent text-primary hover:bg-accent-hover rounded-full px-8 py-6 text-base font-medium transition-all duration-200 hover:scale-[1.02] group"
           >
-            Start Your Deck
+            Build My Winning Deck
             <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
           </Button>
           <Button 

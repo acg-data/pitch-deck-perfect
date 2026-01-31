@@ -7,10 +7,13 @@ import { Testimonials } from '@/sections/Testimonials';
 import { FAQ } from '@/sections/FAQ';
 import { CTABanner } from '@/sections/CTABanner';
 import { Newsletter } from '@/sections/Newsletter';
+import { ScrollProgress } from '@/components/ScrollProgress';
+import { StickyCTABar } from '@/components/StickyCTABar';
 
 export function HomePage() {
   return (
     <>
+      <ScrollProgress />
       <HeroSection />
       <LogoCloud />
       <FeaturesBento />
@@ -20,6 +23,7 @@ export function HomePage() {
       <FAQ />
       <CTABanner />
       <Newsletter />
+      <StickyCTABar />
     </>
   );
 }

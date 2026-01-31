@@ -24,10 +24,10 @@ export function FeaturesBento() {
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
                 Everything You Need
                 <br />
-                To Raise Capital
+                To Win The Room
               </h2>
               <p className="text-gray-600 text-lg mb-8 max-w-md">
-                From story crafting to visual design, we handle every aspect of your pitch deck.
+                From narrative that triggers FOMO to designs that stop the scroll. We engineer every slide to move investors from "maybe" to "where do I wire the money?"
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button 
@@ -59,9 +59,9 @@ export function FeaturesBento() {
                     <FileText className="w-5 h-5 text-accent" />
                   </div>
                 </div>
-                <h3 className="font-semibold text-primary mb-2">Story Crafting</h3>
+                <h3 className="font-semibold text-primary mb-2">Story Engineering</h3>
                 <p className="text-sm text-gray-600">
-                  We help you articulate your vision, problem, and solution in a compelling narrative.
+                  We architect narratives that make investors feel the problem, crave the solution, and fear missing out.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {['Narrative', 'Messaging', 'Positioning'].map((tag) => (
@@ -93,9 +93,9 @@ export function FeaturesBento() {
                     </div>
                   ))}
                 </div>
-                <h3 className="font-semibold text-primary mb-2">Complete Slide Deck</h3>
+                <h3 className="font-semibold text-primary mb-2">Battle-Tested Slides</h3>
                 <p className="text-sm text-gray-600">
-                  All essential slides crafted to tell your complete story.
+                  Every slide optimized from 500+ successful raises. The sequence that turns skeptics into believers.
                 </p>
               </motion.div>
             </StaggerItem>
@@ -111,9 +111,9 @@ export function FeaturesBento() {
                     <BarChart3 className="w-5 h-5 text-accent" />
                   </div>
                 </div>
-                <h3 className="font-semibold text-white mb-2">Data Visualization</h3>
+                <h3 className="font-semibold text-white mb-2">Proof That Persuades</h3>
                 <p className="text-sm text-white/80">
-                  Transform complex data into beautiful, easy-to-understand charts and graphs.
+                  Transform raw numbers into undeniable proof. Charts that make investors reach for their checkbooks.
                 </p>
                 <div className="mt-4 flex items-end gap-1">
                   {[30, 50, 40, 70, 55, 80, 95].map((h, i) => (
@@ -141,9 +141,9 @@ export function FeaturesBento() {
                   />
                 </div>
                 <div className="p-5">
-                  <h3 className="font-semibold text-primary mb-2">Visual Design</h3>
+                  <h3 className="font-semibold text-primary mb-2">Visual Impact</h3>
                   <p className="text-sm text-gray-600">
-                    Stunning, on-brand designs that make your deck stand out.
+                    Designs that demand attention in a crowded inbox. Your deck won't just be opened—it'll be remembered.
                   </p>
                 </div>
               </motion.div>
@@ -160,9 +160,9 @@ export function FeaturesBento() {
                     <Zap className="w-6 h-6 text-accent" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-primary mb-2">End-to-End Service</h3>
+                    <h3 className="font-semibold text-primary mb-2">Zero-Friction Execution</h3>
                     <p className="text-sm text-gray-600">
-                      From initial consultation to final delivery, we handle everything. Including revisions and investor feedback integration.
+                      You focus on building. We handle everything else—from first call to final investor meeting. Including unlimited revisions until you love it.
                     </p>
                     <div className="mt-3 flex gap-2">
                       {['Research', 'Writing', 'Design', 'Revisions'].map((tag) => (

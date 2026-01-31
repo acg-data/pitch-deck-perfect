@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
 import { FadeIn } from '@/components/animations/FadeIn';
 import { FloatingElement } from '@/components/animations/FloatingElement';
+import { CountUp } from '@/components/animations/CountUp';
 import { Check, Target } from 'lucide-react';
 
 const features = [
-  'Investor-Ready Narratives',
-  'Data-Driven Storytelling',
-  'Market-Winning Positioning',
+  'Narratives That Trigger FOMO',
+  'Proof Points That Remove Doubt',
+  'Positioning That Makes Competitors Irrelevant',
 ];
 
 export function ContentGeneration() {
@@ -41,13 +42,13 @@ export function ContentGeneration() {
               </div>
 
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
-                From Raw Ideas To
+                From Messy Braindump
                 <br />
-                <span className="text-gradient">Pitch-Perfect Decks</span>
+                <span className="text-gradient">To Money In The Bank</span>
               </h2>
 
               <p className="text-gray-600 text-lg mb-8">
-                We transform your vision into a compelling narrative that resonates with investors. Our proven process ensures every slide drives your fundraising success.
+                You bring the vision. We bring the proven playbook. Our battle-tested process transforms scattered ideas into investor magnets—every slide engineered to move the needle.
               </p>
 
               {/* Feature List */}
@@ -72,16 +73,22 @@ export function ContentGeneration() {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-gray-100">
                 <div>
-                  <p className="text-3xl font-bold text-primary">$2B+</p>
+                  <p className="text-3xl font-bold text-primary">
+                    <CountUp end={2400} prefix="$" suffix="B+" />
+                  </p>
                   <p className="text-sm text-gray-500">Capital Raised</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-primary">500+</p>
-                  <p className="text-sm text-gray-500">Decks Created</p>
+                  <p className="text-3xl font-bold text-primary">
+                    <CountUp end={500} suffix="+" />
+                  </p>
+                  <p className="text-sm text-gray-500">Founders Funded</p>
                 </div>
                 <div>
-                  <p className="text-3xl font-bold text-primary">94%</p>
-                  <p className="text-sm text-gray-500">Success Rate</p>
+                  <p className="text-3xl font-bold text-primary">
+                    <CountUp end={94} suffix="%" />
+                  </p>
+                  <p className="text-sm text-gray-500">Close Rate</p>
                 </div>
               </div>
             </div>

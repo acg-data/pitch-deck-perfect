@@ -10,8 +10,8 @@ const testimonials = [
     role: 'CEO & Co-Founder',
     company: 'DataFlow AI',
     image: '/assets/testimonial_1.jpg',
-    title: 'Closed $5M Seed Round',
-    quote: 'Happy Pitch transformed our messy ideas into a compelling narrative. We closed our seed round in just 3 weeks with top-tier VCs. The deck was absolutely stunning.',
+    title: '$5M Seed Closed in 3 Weeks',
+    quote: 'We were getting ignored by every VC we reached out to. Happy Pitch completely rewrote our narrative. Three weeks later, we had term sheets from top-tier firms fighting to lead our round.',
     rating: 5,
   },
   {
@@ -20,8 +20,8 @@ const testimonials = [
     role: 'Founder',
     company: 'GreenTech Solutions',
     image: '/assets/testimonial_2.jpg',
-    title: 'Raised $12M Series A',
-    quote: 'The team understood our vision immediately. They crafted a pitch that perfectly balanced our technical innovation with market opportunity. Investors loved it.',
+    title: '$12M Series A Oversubscribed',
+    quote: 'Our technical complexity was killing investor interest. They distilled our vision into a story that made the opportunity undeniable. Our round was oversubscribed within days.',
     rating: 5,
   },
   {
@@ -30,8 +30,8 @@ const testimonials = [
     role: 'Managing Partner',
     company: 'Horizon Ventures',
     image: '/assets/testimonial_3.jpg',
-    title: 'Recommends to Portfolio',
-    quote: 'As a VC, I see hundreds of pitch decks. The ones from Happy Pitch consistently stand out. They know exactly what investors want to see and how to present it.',
+    title: 'VCs Notice The Difference',
+    quote: 'I review 200+ decks a month. Happy Pitch decks are immediately recognizable—they cut through the noise and answer every question before I even ask it. I actively seek out their clients now.',
     rating: 5,
   },
 ];
@@ -43,12 +43,12 @@ export function Testimonials() {
         {/* Header */}
         <FadeIn className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-6">
-            Founders Who Raised
+            Join The Ranks Of
             <br />
-            <span className="text-gradient">With Our Decks</span>
+            <span className="text-gradient">Funded Legends</span>
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Join hundreds of successful founders who trusted us with their pitch decks and secured the funding they needed.
+            These founders came to us with dreams and left with term sheets. Your success story starts here.
           </p>
         </FadeIn>
 
@@ -113,7 +113,7 @@ export function Testimonials() {
             whileTap={{ scale: 0.98 }}
             className="bg-primary text-white hover:bg-primary-light rounded-full px-8 py-4 font-medium transition-all duration-200"
           >
-            Start Your Deck
+            Write My Success Story
           </motion.button>
         </FadeIn>
       </div>
