@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FadeIn } from '@/components/animations/FadeIn';
+import { sanitizeHtml } from '@/lib/sanitize';
 import { FileText, Shield, Cookie, Scale } from 'lucide-react';
 
 const legalPages = [
@@ -151,7 +152,7 @@ export function LegalPage() {
                   </div>
                   <div
                     className="prose prose-lg max-w-none prose-headings:text-primary prose-p:text-gray-600 prose-strong:text-primary prose-li:text-gray-600"
-                    dangerouslySetInnerHTML={{ __html: page.content }}
+                    dangerouslySetInnerHTML={{ __html: sanitizeHtml(page.content) }}
                   />
                 </motion.div>
               );

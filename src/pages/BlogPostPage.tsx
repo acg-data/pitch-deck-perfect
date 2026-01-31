@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-
 import { FadeIn } from '@/components/animations/FadeIn';
+import { sanitizeHtml } from '@/lib/sanitize';
 import { ArrowLeft, Calendar, Clock, User, Twitter, Linkedin, Facebook } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 
@@ -129,7 +129,7 @@ export function BlogPostPage() {
           <FadeIn>
             <article
               className="prose prose-lg max-w-none prose-headings:text-primary prose-p:text-gray-600 prose-strong:text-primary prose-a:text-accent hover:prose-a:text-accent-hover"
-              dangerouslySetInnerHTML={{ __html: post.content }}
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(post.content) }}
             />
           </FadeIn>
 

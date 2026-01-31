@@ -35,16 +35,22 @@ export function HeroSection() {
                 src="/assets/testimonial_1.jpg" 
                 alt="Client" 
                 className="w-8 h-8 rounded-full border-2 border-primary object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <img 
                 src="/assets/testimonial_2.jpg" 
                 alt="Client" 
                 className="w-8 h-8 rounded-full border-2 border-primary object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <img 
                 src="/assets/testimonial_3.jpg" 
                 alt="Client" 
                 className="w-8 h-8 rounded-full border-2 border-primary object-cover"
+                loading="lazy"
+                decoding="async"
               />
               <div className="w-8 h-8 rounded-full border-2 border-primary bg-accent flex items-center justify-center">
                 <span className="text-xs font-bold text-primary">+500</span>

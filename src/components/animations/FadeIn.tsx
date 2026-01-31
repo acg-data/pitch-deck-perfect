@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 import type { ReactNode } from 'react';
 
-interface FadeInProps {
+export interface FadeInProps {
   children: ReactNode;
   delay?: number;
   duration?: number;
@@ -16,6 +16,8 @@ export function FadeIn({
   className = '',
   direction = 'up'
 }: FadeInProps) {
+  const prefersReducedMotion = useReducedMotion();
+  
   const directions = {
     up: { y: 30 },
     down: { y: -30 },
@@ -23,6 +25,11 @@ export function FadeIn({
     right: { x: -30 },
     none: {}
   };
+
+  // If user prefers reduced motion, just render without animation
+  if (prefersReducedMotion) {
+    return <div className={className}>{children}</div>;
+  }
 
   return (
     <motion.div
