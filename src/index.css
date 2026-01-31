@@ -86,7 +86,7 @@
   
   /* Glassmorphism utilities */
   .glass {
-    @apply bg-white/10 backdrop-blur-xl border border-white/20;
+    @apply bg-white/60 backdrop-blur-xl border border-white/40;
   }
   
   .dark .glass {
@@ -117,8 +117,8 @@
   }
   
   .gradient-hero-radial {
-    background: radial-gradient(ellipse at 50% 0%, rgba(56, 189, 248, 0.12) 0%, transparent 50%),
-                linear-gradient(180deg, #0a1628 0%, #050d18 100%);
+    background: radial-gradient(ellipse at 50% 0%, rgba(56, 189, 248, 0.08) 0%, transparent 50%),
+                linear-gradient(180deg, #F5F5F7 0%, #E8E8EC 100%);
   }
   
   .gradient-cta {

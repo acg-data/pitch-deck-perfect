@@ -50,7 +50,7 @@ export function HeroSection() {
                 <span className="text-xs font-bold text-primary">+500</span>
               </div>
             </div>
-            <span className="text-sm text-white/80">500+ founders turned into funded legends</span>
+            <span className="text-sm text-primary/80">500+ founders turned into funded legends</span>
             <Sparkles className="w-4 h-4 text-accent" />
           </div>
         </motion.div>
@@ -62,7 +62,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="text-center mb-6"
         >
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary leading-tight">
             Stop Getting Ghosted.
             <br />
             <span className="text-gradient-ice">Start Getting Funded.</span>
@@ -74,7 +74,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className="text-center text-white/70 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
+          className="text-center text-primary/70 text-lg sm:text-xl max-w-2xl mx-auto mb-10"
         >
           Most pitch decks die in inbox purgatory. Yours won't. We build decks that demand attention, spark FOMO, and open wallets. From scrappy seed rounds to Series C victories.
         </motion.p>
@@ -96,7 +96,7 @@ export function HeroSection() {
           <Button 
             size="lg"
             variant="outline"
-            className="border-white/30 text-white hover:bg-white/10 rounded-full px-8 py-6 text-base font-medium transition-all duration-200"
+            className="border-primary/30 text-primary hover:bg-primary/10 rounded-full px-8 py-6 text-base font-medium transition-all duration-200"
           >
             View Portfolio
           </Button>
@@ -120,7 +120,7 @@ export function HeroSection() {
       </div>
 
       {/* Bottom gradient fade */}
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#F5F5F7] to-transparent" />
     </section>
   );
 }
