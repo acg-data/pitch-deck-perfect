@@ -6,13 +6,10 @@ import { Button } from '@/components/ui/button';
 import { useTheme } from '@/components/ThemeProvider';
 
 const navLinks = [
-  { label: 'Home', href: '/' },
   { label: 'Services', href: '/services' },
-  { label: 'Portfolio', href: '/portfolio' },
   { label: 'Process', href: '/process' },
-  { label: 'Pricing', href: '/pricing' },
+  { label: 'Portfolio', href: '/portfolio' },
   { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
 ];
 
 export function Navbar() {

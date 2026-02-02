@@ -76,6 +76,11 @@
   }
   body {
     @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
   }
 }
 
@@ -117,8 +122,17 @@
   }
   
   .gradient-hero-radial {
-    background: radial-gradient(ellipse at 50% 0%, rgba(56, 189, 248, 0.08) 0%, transparent 50%),
-                linear-gradient(180deg, #F5F5F7 0%, #E8E8EC 100%);
+    background: radial-gradient(ellipse at 50% 0%, rgba(56, 189, 248, 0.15) 0%, transparent 50%),
+                linear-gradient(180deg, #0a1628 0%, #050d18 100%);
+  }
+  
+  /* Collateral-style section backgrounds */
+  .bg-light {
+    background-color: #F8F9FC;
+  }
+  
+  .bg-dark {
+    background-color: #0a1628;
   }
   
   .gradient-cta {
@@ -148,6 +162,74 @@
   
   .glow-ice-sm {
     box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+  }
+  
+  /* Collateral-style buttons */
+  .btn-primary {
+    @apply bg-accent text-primary hover:bg-accent-hover;
+  }
+  
+  .btn-outline {
+    @apply border border-white/30 text-white hover:bg-white/10;
+  }
+  
+  .btn-outline-dark {
+    @apply border border-primary/30 text-primary hover:bg-primary/10;
+  }
+  
+  /* Section utilities */
+  .section-padding {
+    @apply py-20 lg:py-32;
+  }
+  
+  .section-padding-sm {
+    @apply py-12 lg:py-20;
+  }
+  
+  /* Container */
+  .container-collateral {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  /* Feature item with left border */
+  .feature-item {
+    @apply mb-6 border-l-2 border-gray-200 pl-5;
+  }
+  
+  .feature-item.active {
+    @apply border-l-2 border-accent;
+  }
+  
+  /* Process card */
+  .process-card {
+    @apply border border-gray-200 rounded-lg overflow-hidden;
+  }
+  
+  .process-card-top {
+    @apply p-8 text-center bg-white;
+  }
+  
+  .process-card-bottom {
+    @apply p-8 bg-primary text-white;
+  }
+  
+  /* Insight card */
+  .insight-card {
+    @apply bg-primary text-white p-8 h-64 flex flex-col justify-end transition-transform hover:-translate-y-1;
+  }
+  
+  /* Testimonial card */
+  .testimonial-card-collateral {
+    @apply text-white;
+  }
+  
+  /* Stats */
+  .stat-item h3 {
+    @apply text-4xl lg:text-5xl font-bold text-accent mb-2;
+  }
+  
+  .stat-item p {
+    @apply text-sm font-semibold uppercase tracking-wider;
   }
 }
 

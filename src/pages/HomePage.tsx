@@ -1,26 +1,28 @@
 import { HeroSection } from '@/sections/HeroSection';
-import { LogoCloud } from '@/sections/LogoCloud';
-import { FeaturesBento } from '@/sections/FeaturesBento';
-import { ContentGeneration } from '@/sections/ContentGeneration';
-import { CampaignAutomation } from '@/sections/CampaignAutomation';
+import { LogoStrip } from '@/sections/LogoStrip';
+import { FeaturesSplit } from '@/sections/FeaturesSplit';
+import { WhyChoose } from '@/sections/WhyChoose';
+import { StatsSection } from '@/sections/StatsSection';
+import { ProcessSection } from '@/sections/ProcessSection';
+import { TrustedBy } from '@/sections/TrustedBy';
+import { InsightsSection } from '@/sections/InsightsSection';
 import { Testimonials } from '@/sections/Testimonials';
-import { FAQ } from '@/sections/FAQ';
-import { CTABanner } from '@/sections/CTABanner';
-import { Newsletter } from '@/sections/Newsletter';
+import { BottomCTA } from '@/sections/BottomCTA';
 import { StickyCTABar } from '@/components/StickyCTABar';
 
 export function HomePage() {
   return (
     <>
       <HeroSection />
-      <LogoCloud />
-      <FeaturesBento />
-      <ContentGeneration />
-      <CampaignAutomation />
+      <LogoStrip />
+      <FeaturesSplit />
+      <WhyChoose />
+      <StatsSection />
+      <ProcessSection />
+      <TrustedBy />
+      <InsightsSection />
       <Testimonials />
-      <FAQ />
-      <CTABanner />
-      <Newsletter />
+      <BottomCTA />
       <StickyCTABar />
     </>
   );
